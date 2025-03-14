@@ -162,7 +162,7 @@ void Game::play() {
                 std::cout << "Invalid input. Please enter a number: ";
             }
             // if input is less than 0
-            else if(x < 0) { 
+            else if(y < 0) { 
                 std::cout << "Invalid input. Please enter a number that is at least 0: ";
             }
             // if input is greater than or equal to the width of the board
